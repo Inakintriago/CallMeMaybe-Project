@@ -1,34 +1,33 @@
-# 📞 CallMeMaybe - Identificación de Operadores Ineficaces
+# 📞 CallMeMaybe - Identifying Inefficient Operators
 
-## 📝 Contexto
-Este proyecto tiene como objetivo analizar el desempeño de los operadores en la empresa de telefonía virtual **CallMeMaybe**, identificando aquellos menos eficientes con base en su rendimiento en llamadas entrantes y salientes.  
-Se consideran ineficaces los operadores que presentan:
-- Un **alto porcentaje de llamadas entrantes perdidas** (internas y externas).
-- **Tiempos de espera prolongados** para llamadas entrantes.
-- **Baja actividad en llamadas salientes**, cuando es parte de sus responsabilidades.
+## 📝 Context
+This project aims to analyze the performance of operators at the virtual telecommunications company **CallMeMaybe**, identifying those who are less efficient based on their performance in incoming and outgoing calls.  
+Operators are considered inefficient if they exhibit:
+- A **high percentage of missed incoming calls** (both internal and external).
+- **Prolonged wait times** for incoming calls.
+- **Low activity in outgoing calls**, when it is part of their responsibilities.
 
-Este análisis permitirá mejorar la eficiencia operativa, optimizar la distribución del trabajo y mejorar la calidad del servicio.
+This analysis will help improve operational efficiency, optimize workload distribution, and enhance service quality.
 
-## 🛠️ Herramientas Utilizadas
-- **Python (Pandas, NumPy, Seaborn, Matplotlib)**: Para análisis de datos y visualización de métricas clave.
-- **SQL**: Fusión y limpieza de datos de telecomunicaciones.
-- **Tableau**: Dashboard interactivo con visualizaciones dinámicas.
+## 🛠️ Tools Used
+- **Python (Pandas, NumPy, Seaborn, Matplotlib)**: For data analysis and visualizing key metrics.
+- **SQL**: Merging and cleaning telecommunications data.
+- **Tableau**: Interactive dashboard with dynamic visualizations.
 
-## 📈 Análisis de Resultados
-- **Tasa de llamadas perdidas por operador**:
-  - Identificación de operadores con porcentajes elevados de llamadas no contestadas.
-- **Tiempos de espera promedio por operador**:
-  - Determinación de la relación entre tiempos de espera largos y pérdida de llamadas.
-- **Número de llamadas salientes por operador**:
-  - Comparación entre operadores y sus metas de productividad.
-- **Impacto del tipo de llamada**:
-  - Comparación entre llamadas internas y externas en la eficiencia de los operadores.
-- **Influencia de los planes tarifarios**:
-  - Análisis de si ciertos clientes generan más carga de trabajo en los operadores.
+## 📈 Results Analysis
+- **Missed Call Rate by Operator**:
+  - Identification of operators with high percentages of unanswered calls.
+- **Average Wait Times by Operator**:
+  - Determining the relationship between long wait times and missed calls.
+- **Number of Outgoing Calls by Operator**:
+  - Comparison of operators and their productivity targets.
+- **Impact of Call Type**:
+  - Comparison between internal and external calls on operator efficiency.
+- **Influence of Pricing Plans**:
+  - Analyzing whether certain clients create more workload for operators.
 
-## 📋 Conclusiones
-- La identificación de operadores menos eficientes permite **optimizar el personal y redistribuir cargas de trabajo**.
-- Se recomienda implementar **entrenamientos específicos** para operadores con rendimiento bajo.
-- **Sistemas de incentivos o sanciones** pueden mejorar la productividad y reducir tiempos de espera.
-- Los hallazgos pueden servir para **mejorar procesos internos** y optimizar la atención al cliente.
-
+## 📋 Conclusions
+- Identifying less efficient operators allows for **optimizing personnel and redistributing workloads**.
+- It is recommended to implement **targeted training** for underperforming operators.
+- **Incentive or penalty systems** could improve productivity and reduce wait times.
+- The findings can be used to **improve internal processes** and optimize customer service.
